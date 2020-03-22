@@ -1,0 +1,12 @@
+// Lambda
+Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).forEach(
+				n -> System.out.print(n + " "));
+
+// @Override
+Employee manager = new Manager();
+int salary = 2000;
+manager.setSalary(salary);
+
+// Ejemplo con Lambdas
+SumaInterface sumaI = (int x, int y) -> { return x + y; };
+return sumaI.suma(3, 4);
